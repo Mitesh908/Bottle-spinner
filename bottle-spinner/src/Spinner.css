@@ -1,0 +1,25 @@
+.spinner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .bottle {
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+    transition: transform 3s ease-out; 
+  }
+  
+  .bottle.spinning {
+    pointer-events: none;
+  }
+  
+  button {
+    margin-top: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
